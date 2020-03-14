@@ -26,6 +26,14 @@ def initialize(name,artist,genre)
         @@artistcount[artist] += 1
 end
 
+def artists
+  @@artists
+end
+
+def genres
+  @@genres
+end
+
 def count
   @@count
 end
