@@ -26,23 +26,23 @@ def initialize(name,artist,genre)
         @@artistcount[artist] += 1
 end
 
-def artists
+def self.artists
   @@artists
 end
 
-def genres
+def self.genres
   @@genres
 end
 
-def count
+def self.count
   @@count
 end
 
-def genre_count
+def self.genre_count
   @@genrecount
 end
 
-def artist_count
+def self.artist_count
   @@artistcount
 end
 
