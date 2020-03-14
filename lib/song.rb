@@ -2,6 +2,8 @@ class song
   
   @@classsong = {}
   
+  attr_writer :name, :artist, :genre
+  
   def initialize(name,artist,genre)
     
     @name = name
