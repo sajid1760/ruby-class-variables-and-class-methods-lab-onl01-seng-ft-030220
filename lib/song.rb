@@ -40,13 +40,13 @@ end
 
 end
 
-lucifer = Song.new("Lucifer", "Jay-Z", "rap")
-ninety_nine_problems = Song.new("99 Problems", "Jay-Z", "rap") 
-hit_me = Song.new("hit me baby one more time", "Brittany Spears", "pop") 
+#lucifer = Song.new("Lucifer", "Jay-Z", "rap")
+#ninety_nine_problems = Song.new("99 Problems", "Jay-Z", "rap") 
+#hit_me = Song.new("hit me baby one more time", "Brittany Spears", "pop") 
 
-puts lucifer.name   
-puts lucifer.artist_count
-puts lucifer.genre_count
-puts lucifer.genre
-puts lucifer.artist
+#puts lucifer.name   
+#puts lucifer.artist_count
+#puts lucifer.genre_count
+##puts lucifer.genre
+#puts lucifer.artist
     
