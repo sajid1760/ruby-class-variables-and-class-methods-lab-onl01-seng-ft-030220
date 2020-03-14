@@ -57,6 +57,6 @@ puts lucifer.artist_count
 puts lucifer.genre_count
 puts lucifer.genre
 puts lucifer.artist
-puts lucifer.artists
-puts lucifer.genres
+puts lucifer.artists.inspect
+puts lucifer.genres.inspect
     
