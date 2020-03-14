@@ -3,6 +3,8 @@ class song
   @@count = 0 
   @@genres = []
   @@artists = []
+  @@genrecount = {}
+  @@artistcount = {}
   
   attr_writer :name, :artist, :genre
   
@@ -19,6 +21,8 @@ end
 def count
   @@count
 end
+
+
 
 
     
